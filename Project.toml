@@ -1,0 +1,4 @@
+name = "numerical_methods"
+uuid = "ff6caa97-cf8c-4a6c-89b7-aa54981d5264"
+authors = ["Cameron Irmas <cirmas@protonmail.com>"]
+version = "0.1.0"
