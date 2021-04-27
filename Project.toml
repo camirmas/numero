@@ -1,4 +1,7 @@
-name = "numerical_methods"
+name = "NumericalMethods"
 uuid = "ff6caa97-cf8c-4a6c-89b7-aa54981d5264"
 authors = ["Cameron Irmas <cirmas@protonmail.com>"]
 version = "0.1.0"
+
+[deps]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
