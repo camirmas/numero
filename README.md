@@ -1,2 +1,2 @@
 # numero
-Implementations from _Numerical Methods for Engineers_ (Chapra/Canale)
+Notes/Implementations from _Numerical Methods for Engineers_ (Chapra/Canale)
