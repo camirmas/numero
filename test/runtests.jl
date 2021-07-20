@@ -18,3 +18,11 @@ end
     @test fixed_point((x) -> exp(-x), 0, .5, 10) ≈ .5648793473910495 # f(x) = e^(-x)-x
     @test newton_raphson((x -> exp(-x)-x), 0, .5, 10) ≈ .5671431598525681
 end
+
+@testset "Gauss elimination" begin
+    m = [3 -.1 -.2
+		 .1 7 -.3
+	     .3 -.2 10]
+	b = [7.85, -19.3, 71.4]
+    @test naive_gauss(m, b) ≈ [3.0, -2.5, 7.0]
+end
