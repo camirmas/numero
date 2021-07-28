@@ -26,3 +26,8 @@ end
 	b = [7.85, -19.3, 71.4]
     @test naive_gauss(m, b) ≈ [3.0, -2.5, 7.0]
 end
+
+@testset "One-Dimensional Unconstrained Optimization" begin
+    f(x) = 2sin(x)-x^2/10
+	@test gold(0, 4, 8, .01, f) ≈ 1.4427190999915878
+end
